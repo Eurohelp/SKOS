@@ -1,0 +1,58 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sector-publico: <http://datos.gob.es/kos/sector-publico/sector/>
+PREFIX public-sector: <http://euskadi.eus/kos/public-sector/sector/>
+PREFIX spif: <http://spinrdf.org/spif#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT{
+    graph<http://euskadi.eus/catalogo/id/sectores-NTI>{
+ #Concept scheme
+?uriScheme a skos:ConceptScheme;
+dcat:Distribution ?uriDcat.
+?uriDcat dcat:theme ?temaDcat;
+dct:title ?titulo;
+dcat:byteSize 29.726;
+dct:format "application/rdf+xml";
+dct:issued ?fechaParseada;
+dcat:accessURL ?uriAcceso;
+dct:publisher ?eurohelp.
+?eurohelp a foaf:Organization ;
+rdfs:label "Eurohelp Consulting".
+
+ #Version Inglés
+?uriIngles a skos:Concept;
+skos:prefLabel ?labelEtiqIngles;
+skos:prefLabel ?labelEtiqEuskera;
+skos:prefLabel ?labelEtiqCastellano;
+skos:inScheme ?uriScheme;
+skos:exactMatch ?uriCastellano.
+    }
+}
+WHERE {
+     service <http://lod.eurohelp.es:7200/rdf-bridge/1875923637372> {
+   ?numRow a <urn:Row> ;
+     <urn:col:URI> ?uri;
+     <urn:col:LabelIngles> ?labelIngles;
+     <urn:col:LabelEuskera> ?labelEuskera;
+     <urn:col:LabelCastellano> ?labelCastellano;        
+     <urn:col:ExactamenteIgual> ?exactamenteIgual;
+ 	    }
+ 	bind(spif:parseDate("27/06/17","dd/MM/yy") as ?fechaParseada)
+    bind(STRLANG(?labelIngles,"en") as ?labelEtiqIngles)
+  	bind(STRLANG(?labelEuskera,"eu") as ?labelEtiqEuskera)
+	bind(STRLANG(?labelCastellano,"es") as ?labelEtiqCastellano)
+  	bind(STRLANG("SKOS sectores NTI","es") as ?titulo)
+    bind(iri(concat("http://euskadi.eus/kos/public-sector/sector/", spif:encodeURL(?uri))) as ?uriIngles)
+    bind(iri(concat("http://datos.gob.es/kos/sector-publico/sector/", spif:encodeURL(?exactamenteIgual))) as ?uriCastellano)
+  	bind(iri("http://euskadi.eus/kos/public-sector/sector") as ?uriScheme)
+    bind(iri("http://euskadi.eus/kos/public-sector/skos-sectores-nti") as ?uriAcceso)
+	bind(iri("http://datos.gob.es/kos/sector-publico/sector/") as ?temaDcat)
+    bind(iri("http://eurohelp.es") as ?eurohelp)
+    bind(iri("http://euskadi.eus/kos/public-sector/sectores-nti.rdf") as ?uriDcat)
+    bind(STRLANG("SKOS sectores NTI","en") as ?dcatDescripcion)
+     }

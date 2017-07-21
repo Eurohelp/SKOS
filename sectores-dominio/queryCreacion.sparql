@@ -1,0 +1,55 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX spif: <http://spinrdf.org/spif#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+INSERT{
+    graph<http://euskadi.eus/catalogo/sectores-dominio>{
+#Concept scheme
+?uriScheme a skos:ConceptScheme;
+dcat:Distribution ?uriDcat.
+?uriDcat dcat:theme ?temaDcat;
+dct:title ?titulo;
+dct:format "application/rdf+xml";
+dct:issued ?fechaParseada;
+dcat:accessURL ?uriAcceso;
+dct:publisher ?eurohelp.
+?eurohelp a foaf:Organization ;
+rdfs:label "Eurohelp Consulting".  
+ 
+  #Broader
+?uriBroader a skos:Concept;
+skos:narrower ?uriNarrower;
+skos:inScheme ?uriScheme.
+
+#Narrower
+?uriNarrower a skos:Concept;
+skos:broader ?uriBroader;
+skos:prefLabel ?labelEtiqEuskera;
+skos:prefLabel ?labelEtiqCastellano;
+skos:inScheme ?uriScheme.}
+}
+WHERE {
+     service <http://lod.eurohelp.es:7200/rdf-bridge/2072502477596> {
+   ?numRow a <urn:Row> ;
+     <urn:col:Familia> ?familia;
+     <urn:col:Tipo> ?tipo;
+     <urn:col:labelEuskera> ?labelEuskera;
+     <urn:col:labelCastellano> ?labelCastellano;
+ 	    }
+  bind(spif:parseDate("20/07/17","dd/MM/yy") as ?fechaParseada)
+  	bind(STRLANG(?labelEuskera,"eu") as ?labelEtiqEuskera)
+	bind(STRLANG(?labelCastellano,"es") as ?labelEtiqCastellano)
+  	bind(STRLANG("SKOS dominio","es") as ?titulo)
+    bind(iri(concat("http://euskadi.eus/kos/thesaurus/", spif:encodeURL(?familia))) as ?uriScheme)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?familia))) as ?uriBroader)
+  	bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?tipo))) as ?uriNarrower)
+ 	bind(iri(concat("http://euskadi.eus/kos/sectores-dominio/", spif:encodeURL(?familia))) as ?uriAcceso)
+    bind(iri(concat("http://euskadi.eus/kos/theme/", spif:encodeURL(?familia))) as ?temaDcat)
+    bind(iri("http://eurohelp.es") as ?eurohelp)
+  	bind(iri(concat("http://euskadi.eus/kos/sectores-dominio/",spif:encodeURL(?familia),".rdf")) as ?uriDcat)
+     }

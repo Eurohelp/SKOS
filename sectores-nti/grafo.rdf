@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#">
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/science-technology">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/commerce">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/culture-leisure">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/demography">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/sports">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/economy">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/education">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/energy">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/treasury-department">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/industry">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/legislation-justice">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/enviroment">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/rural-enviroment">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/health">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/public-sector">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/security">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/transport">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/tourism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/urbanism-infrastructure">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/employment">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/society-welfare">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/housing">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eurohelp.es">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eurohelp Consulting</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/health">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Salud</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/security">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Seguridad</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/science-technology">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Science and technology</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Ciencia y tecnología</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/commerce">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Commerce</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Comercio</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/culture-leisure">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Culture and leisure</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cultura y ocio</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/demography">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Demography</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Demografía</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/sports">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Sports</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Deporte</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/economy">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Economy</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Economía</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/education">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Education</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Educación</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/employment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Empleo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/energy">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Energy</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Energía</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/treasury-department">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Treasury Department</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Hacienda</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/industry">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Industry</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Industria</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/legislation-justice">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Legislation and justice</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Legislación y justicia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/enviroment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Environment</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Medio ambiente</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/rural-enviroment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Rural environment</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Medio Rural</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/health">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Health</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/public-sector">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Public sector</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sector público</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/security">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Security</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/society-welfare">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sociedad y bienestar</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/transport">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Transport</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Transporte</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/tourism">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Tourism</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Turismo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/urbanism-infrastructure">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Urbanism and infrastructures</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Urbanismo e infraestructuras.</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/housing">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Vivienda</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/employment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Employment</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/society-welfare">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Society and welfare</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/housing">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Housing</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/science-technology">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Zientzia eta teknologia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/commerce">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Merkataritza</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/culture-leisure">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Kultura eta aisialdia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/demography">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Demografia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/sports">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Kirola</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/economy">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Ekonomia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/education">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Hezkuntza</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/employment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Lana</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/energy">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Energia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/treasury-department">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Ogasuna</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/industry">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Industria</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/legislation-justice">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Araudia eta justizia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/enviroment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Ingurumena</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/rural-enviroment">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Landa-ingurunea</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/health">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Osasuna</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/public-sector">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Herri-administrazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/security">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Segurtasuna</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/society-welfare">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Gizartea eta ongizatea</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/transport">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Garraioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/tourism">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Turismoa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/urbanism-infrastructure">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Hirigintza eta azpiegiturak</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/housing">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Etxebizitza</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/science-technology">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/ciencia-tecnologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/commerce">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/culture-leisure">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/cultura-ocio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/demography">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/demografia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/sports">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/deporte"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/economy">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/education">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/educacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/employment">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/empleo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/energy">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/energia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/treasury-department">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/hacienda"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/industry">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/industria"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/legislation-justice">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/enviroment">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/rural-enviroment">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/health">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/public-sector">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/security">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/society-welfare">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sociedad-bienestar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/transport">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/tourism">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/urbanism-infrastructure">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/urbanismo-infraestructuras"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/housing">
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/vivienda"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/science-technology">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/commerce">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/culture-leisure">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/demography">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/sports">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/economy">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/education">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/energy">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/treasury-department">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/industry">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/legislation-justice">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/enviroment">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/rural-enviroment">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/health">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/public-sector">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/security">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/transport">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/tourism">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/urbanism-infrastructure">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/employment">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/society-welfare">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector/housing">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/public-sector/sector"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sector">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/public-sector/sectores-nti.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/public-sector/sectores-nti.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://datos.gob.es/kos/sector-publico/sector/"/>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS sectores NTI</title>
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-27</issued>
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.726</byteSize>
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/public-sector/skos-sectores-nti"/>
+</rdf:Description>
+
+</rdf:RDF>
