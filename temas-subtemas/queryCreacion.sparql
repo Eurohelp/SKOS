@@ -1,0 +1,62 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX spif: <http://spinrdf.org/spif#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+INSERT{
+  graph<http://euskadi.eus/catalogo/temas-subtemas>{
+#Concept scheme
+?uriScheme a skos:ConceptScheme;
+dcat:Distribution ?uriDcat.
+?uriDcat dcat:theme ?temaDcat;
+dct:title ?titulo;
+dct:format "application/rdf+xml";
+dct:issued ?fechaParseada;
+dcat:accessURL ?uriAcceso;
+dct:publisher ?eurohelp.
+?eurohelp a foaf:Organization;
+rdfs:label "Eurohelp Consulting".  
+ 
+#Broader
+?uriBroader a skos:Concept;
+skos:prefLabel ?labelEtiqTemaEuskera;
+skos:prefLabel ?labelEtiqTemaCastellano;
+skos:narrower ?uriNarrower;
+skos:inScheme ?uriScheme.
+
+#Narrower
+?uriNarrower a skos:Concept;
+skos:broader ?uriBroader;
+skos:prefLabel ?labelEtiqSubtemaEuskera;
+skos:prefLabel ?labelEtiqSubtemaCastellano;
+skos:inScheme ?uriScheme.}
+}
+WHERE {
+     service <http://lod.eurohelp.es:7200/rdf-bridge/2384150916860> {
+   ?numRow a <urn:Row> ;
+     <urn:col:Tema-castellano> ?temaCastellano;
+     <urn:col:temaCastellanoConGuion> ?temaCastellanoUri;
+     <urn:col:Subtema-castellano> ?subtemaCastellano;
+     <urn:col:subtemaCastellanoConGuion> ?subtemaCastellanoUri;
+     <urn:col:Tema-euskera> ?temaEuskera;
+     <urn:col:Subtema-euskera> ?subtemaEuskera;
+ 	    }
+ 	bind(spif:parseDate("21/07/17","dd/MM/yy") as ?fechaParseada)
+  	bind(STRLANG(?temaEuskera,"eu") as ?labelEtiqTemaEuskera)
+	bind(STRLANG(?temaCastellano,"es") as ?labelEtiqTemaCastellano)
+   	bind(STRLANG(?subtemaEuskera,"eu") as ?labelEtiqSubtemaEuskera)
+	bind(STRLANG(?subtemaCastellano,"es") as ?labelEtiqSubtemaCastellano)
+  	bind(STRLANG("SKOS eje de Temas/Subtemas ","es") as ?titulo)
+    bind(iri(concat("http://euskadi.eus/kos/thesaurus/", spif:encodeURL(?temaCastellanoUri))) as ?uriScheme)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?temaCastellanoUri))) as ?uriBroader)
+  	bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?subtemaCastellanoUri))) as ?uriNarrower)
+ 	bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?temaCastellanoUri),"/")) as ?uriAcceso)
+    bind(iri(concat("http://euskadi.eus/kos/theme/", spif:encodeURL(?temaCastellanoUri))) as ?temaDcat)
+    bind(iri("http://eurohelp.es") as ?eurohelp)
+  	bind(iri(concat("http://euskadi.eus/kos/sectores-dominio","/familia/",spif:encodeURL(?temaCastellanoUri),".rdf")) as ?uriDcat)
+     }

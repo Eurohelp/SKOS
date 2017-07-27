@@ -1,0 +1,3145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:rdvocab="http://rdvocab.info/ElementsGr2/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:empleado-sector-publico="http://opendata.euskadi.eus/recurso/sector-publico/employee/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dbpedia="http://dbpedia.org/ontology/"
+	xmlns:departamento-sector-publico="http://opendata.euskadi.eus/recurso/sector-publico/departamento/"
+	xmlns:geo-ont="http://www.geonames.org/ontology#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:geo-pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prensa-comunicacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/noticia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/nota-prensa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicidad">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/blog-post">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entrevista">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/eventos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/evento">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/opendata">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estadistica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-geograficos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-meteorologicos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-turisticos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-linguisticos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-ayudas-subvenciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-autorizaciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-carnes">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-registros">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-inspecciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-multas-sanciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-arbitrajes-denuncias-reclamaciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-contrataciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-premios-concursos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-procedimientos-otros">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-general">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-informes-estudios">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-localizaciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-noticias">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-eventos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-rrhh">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-juridicos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-elecciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-economicos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-aplicaciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/rrhh">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico-ope">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/turismo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/a-alojamiento">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/b-restauracion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/c-transporte-y-movilidad">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/d-destinos-turisticos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/e-oficinas-turisticas">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/g-naturaleza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/h-cultura-y-patrimonio">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/i-deportes">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/j-gastronomia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/k-ocio">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/l-compras">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/n-negocios">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/meteorologia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-tiempo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tendencias">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-maritima">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/mapas">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/normativa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/constitucion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley-organica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-ley">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-legislativo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orden">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/norma">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/circular">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orientacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decision">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directiva">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/acuerdo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/convenio-normativa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/instruccion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/otra-normativa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-amparo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-positivo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-negativo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/reglamento">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-legislativo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-ley">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-inconst">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/cuestion-inconst">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-juridica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/doctrina">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-oarc">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen-avpd">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-avpd">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-circular">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-consulta">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-informe">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-ley">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto-legis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-orden">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-encomienda-gestion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-adjudicacion-interna">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-colaboracion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-cofinanciacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-protocolo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-ejecutivo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-protocolo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-contrato-programa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plangub">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plandep">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informe-legalidad-avpd">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-aip">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-rec-aip">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/comentario-jurisprudencial">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estatuto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/transferencia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/competencia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncios-administrativos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informacion-publica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-provisional">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-definitiva">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncio-otro">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos-tecnicos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/aviso-tecnico">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/libro">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/boletin-revista">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directorio">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entidad">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/persona">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/equipamiento">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creaciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/gestion-proyectos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/planificacion-gobierno">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/actuacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-gubernamental">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto-ley">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-departamental">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-expedientes">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-autorizacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/prensa-comunicacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/documentacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/eventos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/opendata">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/rrhh">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/turismo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/meteorologia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/normativa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/documentacion-juridica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/estatuto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/anuncios-administrativos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/avisos-tecnicos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/publicacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/directorio">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/creaciones">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/gestion-proyectos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/planificacion-gobierno">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/documentacion-expedientes">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://eurohelp.es">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	<rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eurohelp Consulting</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/noticia">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">albistea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">noticia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/nota-prensa">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">prentsa_oharra</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">nota_prensa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicidad">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">publizitatea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">publicidad</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/blog-post">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">blog-sarrera</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">entrada-blog</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entrevista">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">elkarrizketa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">entrevista</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">dokumentazioa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/evento">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ekitaldia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">evento</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estadistica">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">estatistika</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">estadistica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-geograficos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">geografikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">geograficos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-meteorologicos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">meteorologikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">meteorologicos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-turisticos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">turistikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">turisticos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-linguisticos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">linguistikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">linguisticos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-ayudas-subvenciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">diru-laguntzak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">ayudas</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-autorizaciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">baimenak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">autorizaciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-carnes">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">txartelak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">carnes</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-registros">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">erregistroak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">registros</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-inspecciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ikuskapenak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">inspecciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-multas-sanciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">zehapenak-isunak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">multas-sanciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-arbitrajes-denuncias-reclamaciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">arbitrajeak-salaketak-erreklamazioak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">arbitrajes-denuncias-reclamaciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-contrataciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">kontratazioak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">contrataciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-premios-concursos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">sariak-lehiaketak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">premios-concursos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-procedimientos-otros">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">beste-prozedurak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">otros-procedimientos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-general">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">orokorrak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">generales</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-informes-estudios">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">txostenak-ikerketak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">informes-estudios</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-localizaciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">kokapenak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">localizaciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-noticias">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">albisteak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">noticias</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-eventos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ekitaldiak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">eventos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-rrhh">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">giza-baliabideak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">recursos-humanos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-juridicos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">juridikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">juridicos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-elecciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">hauteskundeak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">elecciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-economicos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ekonomikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">economicos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-aplicaciones">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">aplikazioak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">aplicaciones</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/rrhh">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">giza_baliabideak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">recursos_humanos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">enplegu_publiko </prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">empleo_publico</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico-ope">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">enplegu_publikorako_eskaintza_epe</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">oferta_publica_empleo_ope</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/a-alojamiento">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ostatua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">alojamiento</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/b-restauracion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">sukaldaritza</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">restauracion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/c-transporte-y-movilidad">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garraioa_mugikortasuna</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">transporte_movilidad</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/d-destinos-turisticos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">helmuga_turistikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">destinos_turisticos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/e-oficinas-turisticas">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">turismo_bulegoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">oficinas_turisticas</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/g-naturaleza">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">natura</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">naturaleza</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/h-cultura-y-patrimonio">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">kultura_ondarea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">cultura_patrimonio</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/i-deportes">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">kirolak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">deportes</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/j-gastronomia">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">gastronomia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">gastronomia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/k-ocio">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">aisia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">ocio</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/l-compras">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">erosketak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">compras</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/n-negocios">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">negozioak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">negocios</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-tiempo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">eguraldi_iragarpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">prevision_tiempo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tendencias">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">joerak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">tendencias</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-maritima">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">itsas_iragarpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">prevision_maritima</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/mapas">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">mapak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">mapas</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ohar_meteorologikoak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">avisos_meteorologicos</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/constitucion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">konstituzioa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">constitucion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley-organica">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">lege_organikoa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">ley_organica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">legea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">ley</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-ley">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">lege_dekretua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">decreto_ley</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-legislativo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">legegintzako_dekretua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">decreto_legislativo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">errege_dekretua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">real_decreto</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">dekretua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">decreto</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orden">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">agindua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">orden</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/norma">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">araua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">norma</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ebazpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">resolucion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/circular">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">zirkularra</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">circular</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orientacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">orientabidea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">orientacion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decision">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">erabakia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">decision</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directiva">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">zuzentaraua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">directiva</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/acuerdo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">akordioa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">acuerdo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/convenio-normativa">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">hitzarmena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">convenio_normativa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/instruccion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">jarraibidea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">instruccion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/otra-normativa">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">beste_arautegia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">otra_normativa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-amparo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">babes_eskeko_errekurtsoa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">recurso_amparo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-positivo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">gatazka_positiboa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">conflicto_positivo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-negativo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">gatazka _egatiboa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">conflicto_negativo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/reglamento">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">erregelamendua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">reglamento</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-legislativo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">legegintzako_errege_dekretua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">real_decreto_legislativo</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-ley">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">errege_lege_dekretua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">real_decreto_ley</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-inconst">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">konstituziokontrakotasuneko_errekurtsoa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">recurso_inconstitucionalidad</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/cuestion-inconst">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">konstituziokontrakotasuneko_galdekizuna</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">cuestion_inconstitucionalidad</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/doctrina">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">doktrina</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">doctrina</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">irizpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">dictamen</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-oarc">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">keao_ebazpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">resolucion_oarc</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen-avpd">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">dbeb_irizpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">dictamen_avpd</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-avpd">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">dbeb_ebazpena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">resolucion_avpd</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-circular">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-consulta">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-informe">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-ley">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto-legis">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-orden">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-encomienda-gestion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-adjudicacion-interna">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-colaboracion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-cofinanciacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-protocolo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-ejecutivo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-protocolo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-contrato-programa">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plangub">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plandep">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-aip">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-rec-aip">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">garrantzi-juridikoko-dokumentazioa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-circular">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-consulta">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-informe">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-ley">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto-legis">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-orden">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-encomienda-gestion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-adjudicacion-interna">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-colaboracion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-cofinanciacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-protocolo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-ejecutivo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-protocolo">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-contrato-programa">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plangub">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plandep">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-aip">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-rec-aip">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-relevancia-juridica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informe-legalidad-avpd">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">dbeb_legtxostena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">inflegalidad_avpd</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/comentario-jurisprudencial">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">jurisprudentziazko-iruzkina</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">comentario-jurisprudencial</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/transferencia">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">transferentzia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">transferencia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/competencia">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">eskumena</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">competencia</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informacion-publica">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">jendeaurreko_erakustaldia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">informacion_publica</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-provisional">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">behin_behineko_erabakia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">resolucion_provisional</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-definitiva">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">behin_betiko_erabakia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">resolucion_definitiva</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncio-otro">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">beste_iragarkia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">otro_anuncio</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/aviso-tecnico">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">abisu_teknikoa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">aviso_tecnico</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/libro">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">liburua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">libro</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/boletin-revista">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">buletina_aldizkaria</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">boletin_revista</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entidad">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">entitatea</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">entidad</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/persona">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">pertsona</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">persona</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/equipamiento">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">ekipamendua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">equipamiento</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">sorkuntzak</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">creacion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">proiektua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">proyecto</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/actuacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">jarduera-esanguratsua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">actuacion-significativa</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-gubernamental">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">gobernu-plana</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">plan-gubernamental</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto-ley">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">lege-proiektua</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">proyecto-ley</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-departamental">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">sail-plana</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">plan-departamental</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-autorizacion">
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">baimen-dokumentazioa</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">documentacion-autorizacion</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prensa-comunicacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/noticia">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/nota-prensa">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicidad">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/blog-post">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entrevista">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/eventos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/eventos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/evento">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/eventos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/opendata">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estadistica">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-geograficos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-meteorologicos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-turisticos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-linguisticos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-ayudas-subvenciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-autorizaciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-carnes">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-registros">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-inspecciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-multas-sanciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-arbitrajes-denuncias-reclamaciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-contrataciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-premios-concursos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-procedimientos-otros">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-general">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-informes-estudios">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-localizaciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-noticias">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-eventos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-rrhh">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-juridicos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-elecciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-economicos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-aplicaciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/rrhh">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico-ope">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/turismo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/a-alojamiento">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/b-restauracion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/c-transporte-y-movilidad">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/d-destinos-turisticos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/e-oficinas-turisticas">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/g-naturaleza">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/h-cultura-y-patrimonio">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/i-deportes">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/j-gastronomia">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/k-ocio">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/l-compras">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/n-negocios">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/meteorologia">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-tiempo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tendencias">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-maritima">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/mapas">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/normativa">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/constitucion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley-organica">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-ley">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-legislativo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orden">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/norma">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/circular">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orientacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decision">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directiva">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/acuerdo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/convenio-normativa">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/instruccion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/otra-normativa">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-amparo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-positivo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-negativo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/reglamento">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-legislativo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-ley">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-inconst">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/cuestion-inconst">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-juridica">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/doctrina">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-oarc">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen-avpd">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-avpd">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-circular">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-consulta">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-informe">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-ley">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto-legis">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-orden">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-encomienda-gestion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-adjudicacion-interna">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-colaboracion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-cofinanciacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-protocolo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-ejecutivo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-protocolo">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-contrato-programa">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plangub">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plandep">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informe-legalidad-avpd">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-aip">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-rec-aip">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/comentario-jurisprudencial">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estatuto">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/transferencia">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/competencia">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncios-administrativos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informacion-publica">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-provisional">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-definitiva">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncio-otro">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos-tecnicos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/avisos-tecnicos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/aviso-tecnico">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/avisos-tecnicos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/libro">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/boletin-revista">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directorio">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entidad">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/persona">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/equipamiento">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creaciones">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/creaciones"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/creaciones"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/gestion-proyectos">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/gestion-proyectos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/gestion-proyectos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/planificacion-gobierno">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/actuacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-gubernamental">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto-ley">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-departamental">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-expedientes">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-expedientes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-autorizacion">
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/thesaurus/documentacion-expedientes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/prensa-comunicacion">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/documentacion">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/eventos">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/eventos.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/opendata">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/opendata.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/rrhh">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/turismo">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/turismo.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/meteorologia">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/normativa">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/normativa.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/documentacion-juridica">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/estatuto">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/anuncios-administrativos">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/avisos-tecnicos">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/publicacion">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/directorio">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/directorio.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/creaciones">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/gestion-proyectos">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/planificacion-gobierno">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/thesaurus/documentacion-expedientes">
+	<Distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/documentacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/eventos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/avisos-tecnicos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/creaciones"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/gestion-proyectos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/theme/documentacion-expedientes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">SKOS dominio</title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.475</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.321</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89.21</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56.21</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.235</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.098</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.76</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.245</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.314</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31.241</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25.846</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<byteSize xmlns="http://www.w3.org/ns/dcat#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57.897</byteSize>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<format xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">application/rdf+xml</format>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-20</issued>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://eurohelp.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/documentacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/eventos.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/eventos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/opendata.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/rrhh.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/turismo.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/meteorologia.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/normativa.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/estatuto.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/avisos-tecnicos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/publicacion.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/directorio.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/creaciones.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/creaciones"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/gestion-proyectos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes.rdf">
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://euskadi.eus/kos/sectores-dominio/documentacion-expedientes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prensa-comunicacion">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/noticia"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/nota-prensa"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/publicidad"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/blog-post"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/entrevista"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/eventos">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/evento"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/opendata">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/estadistica"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-geograficos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-meteorologicos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-recursos-turisticos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-recursos-linguisticos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-ayudas-subvenciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-autorizaciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-carnes"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-registros"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-inspecciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-multas-sanciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-arbitrajes-denuncias-reclamaciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-contrataciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-premios-concursos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-procedimientos-otros"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-general"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-informes-estudios"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-localizaciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-noticias"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-eventos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-rrhh"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-juridicos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-elecciones"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-economicos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ds-aplicaciones"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/rrhh">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/rrhh"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/empleo-publico"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/empleo-publico-ope"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/turismo">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/a-alojamiento"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/b-restauracion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/c-transporte-y-movilidad"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/d-destinos-turisticos"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/e-oficinas-turisticas"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/g-naturaleza"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/h-cultura-y-patrimonio"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/i-deportes"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/j-gastronomia"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/k-ocio"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/l-compras"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/n-negocios"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/meteorologia">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prevision-tiempo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tendencias"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prevision-maritima"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/mapas"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/avisos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/normativa">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/constitucion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ley-organica"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/ley"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/decreto-ley"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/decreto-legislativo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/real-decreto"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/decreto"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/orden"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/norma"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/resolucion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/circular"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/orientacion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/decision"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/directiva"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/acuerdo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/convenio-normativa"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/instruccion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/otra-normativa"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/recurso-amparo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/conflicto-positivo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/conflicto-negativo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/reglamento"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/real-decreto-legislativo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/real-decreto-ley"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/recurso-inconst"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/cuestion-inconst"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-juridica">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/doctrina"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/dictamen"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/resolucion-oarc"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/dictamen-avpd"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/resolucion-avpd"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-circular"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-consulta"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-informe"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-ley"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-decreto-legis"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-decreto"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-resolucion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-orden"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-encomienda-gestion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-adjudicacion-interna"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-nbnc-convenio-colaboracion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-nbnc-convenio-cofinanciacion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-protocolo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-ejecutivo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-nbnc-protocolo"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-nbnc-contrato-programa"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-plangub"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-plandep"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/informe-legalidad-avpd"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-resolucion-aip"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/tramita-resolucion-rec-aip"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/comentario-jurisprudencial"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estatuto">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/transferencia"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/competencia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncios-administrativos">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/informacion-publica"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/resolucion-provisional"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/resolucion-definitiva"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/anuncio-otro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos-tecnicos">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/aviso-tecnico"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicacion">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/libro"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/boletin-revista"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directorio">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/entidad"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/persona"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/equipamiento"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creaciones">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/creacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/gestion-proyectos">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/proyecto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/planificacion-gobierno">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/actuacion"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/plan-gubernamental"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/proyecto-ley"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/plan-departamental"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-expedientes">
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-autorizacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/noticia">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/nota-prensa">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/publicidad">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/blog-post">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entrevista">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/prensa-comunicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/evento">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/eventos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/estadistica">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-geograficos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-meteorologicos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-turisticos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-recursos-linguisticos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-ayudas-subvenciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-autorizaciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-carnes">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-registros">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-inspecciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-multas-sanciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-arbitrajes-denuncias-reclamaciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-contrataciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-premios-concursos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-procedimientos-otros">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-general">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-informes-estudios">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-localizaciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-noticias">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-eventos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-rrhh">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-juridicos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-elecciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-economicos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ds-aplicaciones">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/opendata"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/rrhh">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/empleo-publico-ope">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/rrhh"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/a-alojamiento">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/b-restauracion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/c-transporte-y-movilidad">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/d-destinos-turisticos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/e-oficinas-turisticas">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/g-naturaleza">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/h-cultura-y-patrimonio">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/i-deportes">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/j-gastronomia">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/k-ocio">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/l-compras">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/n-negocios">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/turismo"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-tiempo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tendencias">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/prevision-maritima">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/mapas">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/avisos">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/meteorologia"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/constitucion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley-organica">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/ley">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-ley">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto-legislativo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decreto">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orden">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/norma">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/circular">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/orientacion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/decision">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/directiva">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/acuerdo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/convenio-normativa">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/instruccion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/otra-normativa">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-amparo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-positivo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/conflicto-negativo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/reglamento">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-legislativo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/real-decreto-ley">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/recurso-inconst">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/cuestion-inconst">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/normativa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/doctrina">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-oarc">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/dictamen-avpd">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-avpd">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-circular">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-consulta">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-informe">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-ley">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto-legis">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-decreto">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-orden">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-encomienda-gestion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-adjudicacion-interna">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-colaboracion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-cofinanciacion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-protocolo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-convenio-pat-ejecutivo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-protocolo">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-nbnc-contrato-programa">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plangub">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-plandep">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informe-legalidad-avpd">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-aip">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/tramita-resolucion-rec-aip">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/comentario-jurisprudencial">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-juridica"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/transferencia">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/competencia">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/estatuto"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/informacion-publica">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-provisional">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/resolucion-definitiva">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/anuncio-otro">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/anuncios-administrativos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/aviso-tecnico">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/avisos-tecnicos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/libro">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/boletin-revista">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/publicacion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/entidad">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/persona">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/equipamiento">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/directorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/creacion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/creaciones"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/gestion-proyectos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/actuacion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-gubernamental">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/proyecto-ley">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/plan-departamental">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/planificacion-gobierno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://euskadi.eus/kos/documentacion-autorizacion">
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://euskadi.eus/kos/documentacion-expedientes"/>
+</rdf:Description>
+
+</rdf:RDF>

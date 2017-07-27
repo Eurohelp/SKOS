@@ -1,0 +1,103 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX spif: <http://spinrdf.org/spif#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+INSERT{
+graph<http://euskadi.eus/catalogo/estructura-admin-publica>{
+#Concept scheme
+?uriScheme a skos:ConceptScheme;
+dcat:Distribution ?uriDcat.
+?uriDcat dcat:theme ?temaDcat;
+dct:title ?titulo;
+dct:format "application/rdf+xml";
+dct:issued ?fechaParseada;
+dcat:accessURL ?uriAcceso;
+dct:publisher ?eurohelp.
+?eurohelp a foaf:Organization;
+rdfs:label "Eurohelp Consulting".  
+ 
+#Narrower1
+?uriNarrower1Cast a skos:Concept;
+skos:prefLabel ?narrowerCast1;
+skos:prefLabel ?narrowerEusk1;
+skos:narrower ?uriNarrower2Borrower1Cast;
+skos:inScheme ?uriScheme.
+
+#Narrower2
+?uriNarrower2Borrower1Cast a skos:Concept;
+skos:prefLabel ?narrowerCast2Borrower1;
+skos:prefLabel ?narrowerEusk2Borrower1Eusk;
+skos:broader ?uriNarrower1Cast;
+skos:narrower ?uriNarrower3Borrower2Cast;
+skos:inScheme ?uriScheme.
+  
+#Narrower 3
+?uriNarrower3Borrower2Cast a skos:Concept;
+skos:prefLabel ?narrower3CastBorrower2;
+skos:prefLabel ?narrowerEusk3Borrower2;
+skos:broader ?uriNarrower2Borrower1Cast;
+skos:narrower ?uriBorrower3Cast;
+skos:inScheme ?uriScheme.
+  
+#Narrower 3
+?uriBorrower3Cast a skos:Concept;
+skos:prefLabel ?borrowerCast3;
+skos:prefLabel ?borrowerEusk3;
+skos:broader ?uriNarrower3Borrower2Cast;
+skos:inScheme ?uriScheme.
+  }
+}
+WHERE {
+     service <http://lod.eurohelp.es:7200/rdf-bridge/2234044640254> {
+   ?numRow a <urn:Row> ;
+     <urn:col:Narrower1-cast> ?narrower1cast;
+     <urn:col:Narrowe1-cast-ConGuion> ?narrower1castUri;
+     <urn:col:Narrower2-borrower1-cast> ?narrower2Borrower1Cast;
+     <urn:col:Narrower2Borrower1CastGuion> ?narrower2Borrower1CastUri;
+     <urn:col:Narrower3borrower2Cast> ?narrower3Borrower2Cast;
+     <urn:col:Narrower3borrower2CastGuion> ?narrower3Borrower2CastUri;
+     <urn:col:Borrower3-cast> ?borrower3Cast;
+     <urn:col:Borrower3-castGuion> ?borrower3CastUri;
+     <urn:col:Narrower1-eusk> ?narrower1eusk;
+     <urn:col:Narrower1-eusk-conGuion> ?narrower1euskUri;
+     <urn:col:Narrower2-borrower1-eusk> ?narrower2Borrower1Eusk;
+     <urn:col:narrower2Borrower1EuskGuion> ?narrower2Borrower1EuskUri;
+     <urn:col:Narrower3-borrower2-eusk> ?narrower3Borrower2Eusk;
+     <urn:col:narrower3Borrower2EuskGuion> ?narrower3Borrower2EuskUri;
+     <urn:col:Borrower3-eusk> ?borrower3Eusk;
+     <urn:col:borrower3EuskGuion> ?borrower3EuskUri;
+ 	    }
+ 	bind(spif:parseDate("26/07/17","dd/MM/yy") as ?fechaParseada)
+  	bind(STRLANG(?narrower1cast,"es") as ?narrowerCast1)
+  	bind(STRLANG(?narrower2Borrower1Cast,"es") as ?narrowerCast2Borrower1)
+  	bind(STRLANG(?narrower3Borrower2Cast,"es") as ?narrower3CastBorrower2)
+  	bind(STRLANG(?borrower3Cast,"es") as ?borrowerCast3)
+	bind(STRLANG(?narrower1eusk,"eu") as ?narrowerEusk1)
+  	bind(STRLANG(?narrower2Borrower1Eusk,"eu") as ?narrowerEusk2Borrower1Eusk)
+	bind(STRLANG(?narrower3Borrower2Eusk,"eu") as ?narrowerEusk3Borrower2)
+	bind(STRLANG(?borrower3Eusk,"eu") as ?borrowerEusk3)
+  
+  	bind(STRLANG("Informe de la estructura de administracion autonomica","es") as ?titulo)
+    bind(iri(concat("http://euskadi.eus/kos/thesaurus/", spif:encodeURL(?narrower1castUri))) as ?uriScheme)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower1castUri))) as ?uriNarrower1Cast)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower2Borrower1CastUri))) as ?uriNarrower2Borrower1Cast)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower3Borrower2CastUri))) as ?uriNarrower3Borrower2Cast)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?borrower3CastUri))) as ?uriBorrower3Cast)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower1euskUri))) as ?uriNarrower1Eusk)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower2Borrower1EuskUri))) as ?uriNarrower2Borrower1Eusk)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower3Borrower2EuskUri))) as ?uriNarrower3Borrower2Eusk)
+    bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?borrower3EuskUri))) as ?uriBorrower3Eusk)
+
+	##Vamos por aqui
+  
+ 	bind(iri(concat("http://euskadi.eus/kos/", spif:encodeURL(?narrower1castUri),"/")) as ?uriAcceso)
+    bind(iri(concat("http://euskadi.eus/kos/theme/", spif:encodeURL(?narrower1castUri))) as ?temaDcat)
+    bind(iri("http://eurohelp.es") as ?eurohelp)
+  	bind(iri(concat("http://euskadi.eus/kos/sectores-dominio","/familia/",spif:encodeURL(?narrower1castUri),".rdf")) as ?uriDcat)
+     }
